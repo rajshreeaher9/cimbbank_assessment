@@ -33,7 +33,7 @@ public class TestUtil extends TestBase {
 	Properties prop = new Properties();
 	private static Logger logger;
 	private static FluentWait<WebDriver> wait;
-	public static final String TESTDATA_SHEET_PATH = testDataDir + "TestData.xlsx";
+	
 
 
 
