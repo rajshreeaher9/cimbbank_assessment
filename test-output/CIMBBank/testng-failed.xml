@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [CIMBBank]">
+  <test thread-count="5" name="CIMBBankTest(failed)">
+    <classes>
+      <class name="com.cimbbank.runner.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.cimbbank.runner.TestRunner -->
+    </classes>
+  </test> <!-- CIMBBankTest(failed) -->
+</suite> <!-- Failed suite [CIMBBank] -->

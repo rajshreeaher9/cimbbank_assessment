@@ -1,0 +1,420 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13943028700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Accessing deals",
+        "description": "",
+        "id": "check-the-deals-page;accessing-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 911253100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4723547100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on CIMB page",
+            "match": {
+              "location": "DealsPageDef.I_am_on_CIMB_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14175584400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select CIMB Deals",
+            "match": {
+              "location": "DealsPageDef.I_select_CIMB_Deals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17374396000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I would like to explore more for \"Dorsett Grand Subang\" under Travel \u0026 Fun",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dorsett Grand Subang",
+                  "offset": 34
+                }
+              ],
+              "location": "DealsPageDef.I_would_like_to_explore_more(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3622333700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will be able to see its details and other similar deals",
+            "match": {
+              "location": "DealsPageDef.I_will_be_able_to_see_its_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check the deals page",
+    "description": "",
+    "id": "check-the-deals-page",
+    "keyword": "Feature",
+    "uri": "deals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3006866000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on CIMB page for calculator",
+            "match": {
+              "location": "AffordablityCalDef.I_am_on_CIMB_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8379025000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Tools page from menu",
+            "match": {
+              "location": "AffordablityCalDef.navigate_to_Tools()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11020526100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Accessing \u0026 using Property Affordability Calculator",
+        "description": "",
+        "id": "check-the-property-affordability-calculator;accessing-\u0026-using-property-affordability-calculator;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 825941200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4292797600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I access to Property Affordability Calculator",
+            "match": {
+              "location": "AffordablityCalDef.access_to_Property_Affordability_Calculator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12135675300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have inputted all necessary values as \"1000000\" \"800000\" \"500000\" \"5\" \"800\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000000",
+                  "offset": 41
+                },
+                {
+                  "val": "800000",
+                  "offset": 51
+                },
+                {
+                  "val": "500000",
+                  "offset": 60
+                },
+                {
+                  "val": "5",
+                  "offset": 69
+                },
+                {
+                  "val": "800",
+                  "offset": 73
+                }
+              ],
+              "location": "AffordablityCalDef.inputted_all_necessary_values(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190605900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will be able to know the \"2,189.85\" and \"108,000.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2,189.85",
+                  "offset": 28
+                },
+                {
+                  "val": "108,000.00",
+                  "offset": 43
+                }
+              ],
+              "location": "AffordablityCalDef.estimate_monthly_payment(String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 252383400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will see Credit Card Payment Calculator, Auto Financing Affordability Calculator and Property Monthly Installment Calculator at the bottom",
+            "match": {
+              "location": "AffordablityCalDef.I_would_like_to_explore_more()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3682324000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on CIMB page for calculator",
+            "match": {
+              "location": "AffordablityCalDef.I_am_on_CIMB_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8420829900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Tools page from menu",
+            "match": {
+              "location": "AffordablityCalDef.navigate_to_Tools()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9817914200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Accessing \u0026 using Property Affordability Calculator",
+        "description": "",
+        "id": "check-the-property-affordability-calculator;accessing-\u0026-using-property-affordability-calculator;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 830301300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4273015200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I access to Property Affordability Calculator",
+            "match": {
+              "location": "AffordablityCalDef.access_to_Property_Affordability_Calculator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12297612600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have inputted all necessary values as \"\" \"1000000\" \"4000\" \"9\" \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 41
+                },
+                {
+                  "val": "1000000",
+                  "offset": 44
+                },
+                {
+                  "val": "4000",
+                  "offset": 54
+                },
+                {
+                  "val": "9",
+                  "offset": 61
+                },
+                {
+                  "val": "20",
+                  "offset": 65
+                }
+              ],
+              "location": "AffordablityCalDef.inputted_all_necessary_values(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172213000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will be able to know the \"0.00\" and \"0.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 28
+                },
+                {
+                  "val": "0.00",
+                  "offset": 39
+                }
+              ],
+              "location": "AffordablityCalDef.estimate_monthly_payment(String,String)"
+            },
+            "matchedColumns": [
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250727900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will see Credit Card Payment Calculator, Auto Financing Affordability Calculator and Property Monthly Installment Calculator at the bottom",
+            "match": {
+              "location": "AffordablityCalDef.I_would_like_to_explore_more()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check the Property Affordability Calculator",
+    "description": "",
+    "id": "check-the-property-affordability-calculator",
+    "keyword": "Feature",
+    "uri": "propertycal.feature"
+  }
+]

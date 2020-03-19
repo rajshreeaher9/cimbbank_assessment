@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="136608" started-at="2020-03-19T15:11:24Z" finished-at="2020-03-19T15:13:40Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cimbbank.runner.TestRunner@a67c67e]" name="feature" class="com.cimbbank.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="136608" started-at="2020-03-19T15:11:24Z" finished-at="2020-03-19T15:13:40Z">
+      <class name="com.cimbbank.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cimbbank.runner.TestRunner@a67c67e]" name="setUpClass" is-config="true" duration-ms="464" started-at="2020-03-19T15:11:24Z" finished-at="2020-03-19T15:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cimbbank.runner.TestRunner@a67c67e]" name="feature" duration-ms="55352" started-at="2020-03-19T15:11:24Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-19T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check the deals page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cimbbank.runner.TestRunner@a67c67e]" name="feature" duration-ms="79898" started-at="2020-03-19T15:12:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-19T15:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check the Property Affordability Calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cimbbank.runner.TestRunner@a67c67e]" name="tearDownClass" is-config="true" duration-ms="693" started-at="2020-03-19T15:13:40Z" finished-at="2020-03-19T15:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cimbbank.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

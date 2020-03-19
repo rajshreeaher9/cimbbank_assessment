@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="134.598901">
+<testcase classname="Check the deals page" name="Accessing deals" time="54.750143">
+<system-out><![CDATA[Given I am on CIMB page.....................................................passed
+When I select CIMB Deals....................................................passed
+And I would like to explore more for "Dorsett Grand Subang" under Travel & Fun.passed
+Then I will be able to see its details and other similar deals..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the Property Affordability Calculator" name="Accessing &amp; using Property Affordability Calculator" time="40.10382">
+<system-out><![CDATA[Given I am on CIMB page for calculator......................................passed
+And I navigate to Tools page from menu......................................passed
+When I access to Property Affordability Calculator..........................passed
+And I have inputted all necessary values as "1000000" "800000" "500000" "5" "800".passed
+Then I will be able to know the "2,189.85" and "108,000.00".................passed
+And I will see Credit Card Payment Calculator, Auto Financing Affordability Calculator and Property Monthly Installment Calculator at the bottom.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the Property Affordability Calculator" name="Accessing &amp; using Property Affordability Calculator 2" time="39.744938">
+<system-out><![CDATA[Given I am on CIMB page for calculator......................................passed
+And I navigate to Tools page from menu......................................passed
+When I access to Property Affordability Calculator..........................passed
+And I have inputted all necessary values as "" "1000000" "4000" "9" "20"....passed
+Then I will be able to know the "0.00" and "0.00"...........................passed
+And I will see Credit Card Payment Calculator, Auto Financing Affordability Calculator and Property Monthly Installment Calculator at the bottom.passed
+]]></system-out>
+</testcase>
+</testsuite>
